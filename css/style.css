@@ -28,9 +28,15 @@ height: 40px;
 box-shadow: 0px 2px 2px 0px grey;
 border-radius: 100%;
 }
-.nav-back {
-	url('../images/navback.png')  no-repeat #46B6AC;
+.list-bc {
+	background :url('../images/listback.png')  ;
 }
+.nav-back {
+	background :url('../images/navback.png')  no-repeat #46B6AC;
+	min-height: 139px;
+	color: white;
+}
+
 .text-con {
 	margin: auto;
 	min-height: 0px;
@@ -38,4 +44,11 @@ border-radius: 100%;
 .text-disp {
 	width: 100%;
 margin-left: 32%;
+}
+#hov-col {
+	color: white;
+
+}
+#hov-col:hover {
+	color: black;
 }
