@@ -1,8 +1,9 @@
 .img-con {
-	margin: auto;
-    position: relative;
+    margin: auto;
+    position: absolute;
     top: 50%;
-    transform: translate(0px, -50%);
+    transform: translate(-50%, -50%);
+    left: 50%;
 }
 .demo-card-square.mdl-card {
 				  width: 320px;
