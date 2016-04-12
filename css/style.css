@@ -15,6 +15,22 @@
 				  background:
 				    url('../images/me.jpeg') bottom 72% right 42% no-repeat #46B6AC;
 				}
+.hov-img {
+-o-transition:.2s ease-in-out;
+-ms-transition:.2s ease-in-out;
+-moz-transition:.2s ease-in-out;
+-webkit-transition:.2s ease-in-out;
+transition:.2s  ease-in-out;
+}
+.hov-img:hover {
+width: 40px;
+height: 40px;
+box-shadow: 0px 2px 2px 0px grey;
+border-radius: 100%;
+}
+.nav-back {
+	url('../images/navback.png')  no-repeat #46B6AC;
+}
 .text-con {
 	margin: auto;
 	min-height: 0px;
