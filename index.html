@@ -31,7 +31,7 @@
 }
 </style>
 
-<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+<div class="demo-layout-transparent mdl-layout mdl-js-layout" id="cont">
   <header class="mdl-layout__header mdl-layout__header--transparent">
     <div class="mdl-layout__header-row">
       <!-- Title -->
@@ -91,5 +91,7 @@ left: 6%;">Kumar Sanyam</div></span>
 </body>
 <script src="jquery-1.12.0.min.js"></script>
 <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-
+<script type="text/javascript">
+  $('#cont').jKit('parallax', { 'strength': '3', 'axis': 'both' });
+</script>
 </html> 
